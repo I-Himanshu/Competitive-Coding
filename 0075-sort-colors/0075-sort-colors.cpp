@@ -13,9 +13,8 @@ public:
                 nums[i]=0;c0--;
             }else if(c1){
                 nums[i]=1;c1--;
-            }else{ 
+            }else
                 nums[i]=2;
-            }
         }
     }
 };
